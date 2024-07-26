@@ -54,6 +54,8 @@ html {
         flex-basis:1500px;
         max-width: 1500px;
 
+        max-height: 900px;
+
     }
 
     .content {
@@ -166,7 +168,7 @@ html {
 
     .intro {
         height: 100dvh;
-        overflow: auto;
+
 
     }
     .intro-3 {
@@ -359,7 +361,6 @@ a .view-work-button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow:hidden;
    
 
 }
@@ -448,10 +449,12 @@ overflow:hidden;
 
 .portfolio {
     min-height: 100dvh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .intro-links {
@@ -477,7 +480,7 @@ overflow:hidden;
     overflow: hidden;
     flex-shrink: 1;
     max-height:max-content;
-    height: 900px;
+   
 
 
 }
@@ -511,7 +514,7 @@ overflow:hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     left:0;
 
 
