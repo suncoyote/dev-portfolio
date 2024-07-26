@@ -3,7 +3,7 @@
 
 body {
     font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2rem;
     margin: 100px;
     background-color: black;
@@ -12,6 +12,10 @@ body {
 
 }
 
+h1,
+h2 {
+    color: #FFE613;
+}
 
 
 .content-wrapper {
