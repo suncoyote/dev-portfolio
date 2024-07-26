@@ -23,6 +23,11 @@ a {
     text-decoration: none;
 }
 
+a:not(.view-work):hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
 .name {
     background-image: linear-gradient(342deg, rgba(255, 230, 19, 1) 0%, rgba(252, 6, 121, 1) 100%);
     background-clip: text;
@@ -38,35 +43,88 @@ a {
 }
 
 .content {
-    max-width: 1200px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
 }
 
 .intro {
     display: flex;
-    gap: 3rem;
     min-height: 100svh;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
+}
 
+.intro-content {
+    display: flex;
+    gap: 4rem;
+
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-work {
+    color: #FC0679;
+    border: 2px solid;
+    border-radius: 3px;
+    margin-top: 4rem;
+    padding: 20px;
+
+}
+
+.portfolio {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello {
+    text-align: right;
 }
 
 .allcards {
     display: flex;
     gap: 3rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    flex-basis: 400px;
+    min-width: 300px;
     border-radius: 20px;
-    background: radial-gradient(circle, rgba(28, 7, 83, 1) 65%, rgba(8, 9, 56, 1) 100%);
+    background: linear-gradient(342deg, rgba(27, 22, 88, 1) 0%, rgba(9, 15, 24, 1) 100%);
     overflow: hidden;
+    flex-shrink: 3;
+
 
 }
 
 .card img {
     width: 100%;
-
+    flex-shrink: 1;
+    min-width: 0;
 }
 
 .card .description {
