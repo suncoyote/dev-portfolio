@@ -9,32 +9,47 @@ html {
 @media (min-width:1400px) {
 
 
-    .hello {
-        align-self: flex-start;
-    }
+
 
     .intro-content {
         display: flex;
-        gap: 4rem;
-        height: 40rem;
-
+        flex-direction: column;
         max-width: 1200px;
+    
 
+    }
+    .intro-content{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .hello h1 br {
+        display:none;
+        padding-bottom: 0;
+    }
+ h1 {
+        margin-bottom: 0;
+    }
+
+    .about {
+        margin: 10rem;
+        max-width: 1400px
     }
 
     body {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .intro-2{
-        padding: 4rem;
+        padding: 7rem;
         max-width: 1200px;
+        
+
     }
     .allcards {
         display: flex;
         margin: 3rem;
         gap: 3rem;
         justify-content: center;
-        align-items: stretch;
         flex-wrap: wrap;
         flex-basis:1500px;
         max-width: 1500px;
@@ -74,8 +89,16 @@ html {
 
     .hello {
         align-self: flex-start;
+        margin-bottom: 0;
+    }
+    .hello h1 {
+        font-size: 4rem;
     }
 
+    .hello h1 br {
+        display:none;
+        padding: 0;
+    }
 
     body {
         font-size: 1.5rem;
@@ -87,13 +110,18 @@ html {
         margin: 3rem;
         padding:3rem;
         max-width:800px;
-        font-size: 1.2rem;
+        font-size: 2.6rem;
+        font-weight: 400;
 
     }
     .intro-3 {
         margin: 0rem;
     
     }
+    .intro p {
+        margin-top: 0;
+    }
+    
 
     .allcards {
         display: flex;
@@ -128,7 +156,7 @@ html {
 
     .card .description {
         padding: 3rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 }
@@ -177,7 +205,7 @@ html {
     }
 
     body {
-        font-size: 1.2rem;
+        font-size: 1rem;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -194,7 +222,8 @@ html {
         gap: .5rem;
         border: 2px solid;
         border-radius: 5px;
-        padding: .5rem 1rem;
+        padding: .5rem 1.5rem;
+        margin: 1rem;
 
 
     }
@@ -264,7 +293,10 @@ a:not(.view-work):hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
 }
-
+a .view-work-button {
+    z-index:999;
+    font-weight:400;
+}
 
 
 .name {
@@ -338,6 +370,7 @@ a:not(.view-work):hover {
     justify-content: center;
     align-items: center;
     min-height:100dvh;
+    z-index:999;
 
 }
 .star-wrapper {
@@ -403,6 +436,14 @@ overflow:hidden;
 
 
 }
+.about {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
 
 
 .portfolio {
@@ -418,6 +459,7 @@ overflow:hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .hello {
@@ -456,6 +498,7 @@ overflow:hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height:100%;
 }
 
 
