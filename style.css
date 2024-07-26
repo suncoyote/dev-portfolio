@@ -3,11 +3,11 @@
 
 body {
     font-family: "Josefin Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2rem;
     margin: 100px;
-    background-color: black;
-    color: white;
+    background-color: #080015;
+    color: #EEF2F6;
 
 
 }
@@ -15,6 +15,17 @@ body {
 h1,
 h2 {
     color: #FFE613;
+}
+
+a {
+    color: #FC0679;
+    text-decoration: none;
+}
+
+.name {
+    background-image: linear-gradient(342deg, rgba(255, 230, 19, 1) 0%, rgba(252, 6, 121, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -44,7 +55,7 @@ h2 {
 .card {
     width: 500px;
     border-radius: 20px;
-    background-color: silver;
+    background: radial-gradient(circle, rgba(28, 7, 83, 1) 65%, rgba(8, 9, 56, 1) 100%);
     overflow: hidden;
 
 }
@@ -55,6 +66,6 @@ h2 {
 }
 
 .card .description {
-    padding: 30px;
+    padding: 40px;
     font-size: 1.5rem;
 }
