@@ -6,6 +6,13 @@ body {
     font-weight: 300;
     font-size: 2rem;
     margin: 100px;
+    background-color: black;
+    color: white;
+
+}
+
+.contentwrapper {
+    max-width: 1200px
 }
 
 .intro {
@@ -34,6 +41,6 @@ body {
 }
 
 .card .description {
-    padding: 20px;
+    padding: 30px;
     font-size: 1.5rem;
 }
