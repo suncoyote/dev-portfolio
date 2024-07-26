@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 /*desktop*/
-@media (min-width:1100px) {
+@media (min-width:1000px) {
     .intro-content {
         display: flex;
         gap: 4rem;
@@ -43,10 +43,15 @@
         margin-top: 4rem;
     }
 
+    .card .description {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
 }
 
 /*mobile*/
-@media (max-width:1100px) {
+@media (max-width:1000px) {
 
     .intro-content {
         display: flex;
@@ -75,8 +80,9 @@
 
     }
 
-    .card {
+    .card .description {
         font-size: 1.2rem;
+        padding: 2rem;
     }
 
     .allcards {
@@ -234,9 +240,4 @@ a:not(.view-work):hover {
     width: 100%;
     flex-shrink: 1;
     min-width: 0;
-}
-
-.card .description {
-    padding: 40px;
-    font-size: 1.5rem;
 }
