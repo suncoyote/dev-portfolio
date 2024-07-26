@@ -434,7 +434,8 @@ overflow:hidden;
     border: 1px solid rgba(6, 4, 36, 1);
     overflow: hidden;
     flex-shrink: 1;
-    min-height: 600px;
+    max-height:max-content;
+    height: 900px;
 
 
 }
@@ -448,6 +449,13 @@ overflow:hidden;
     width: 100%;
     flex-shrink: 1;
     min-width: 0;
+}
+
+.description {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
