@@ -16,8 +16,24 @@ body {
 
 .allcards {
     display: flex;
+    gap: 3rem;
+    justify-content: center;
 }
 
 .card {
-    flex-basis: 33.3%
+    width: 500px;
+    border-radius: 20px;
+    background-color: silver;
+    overflow: hidden;
+
+}
+
+.card img {
+    width: 100%;
+
+}
+
+.card .description {
+    padding: 20px;
+    font-size: 1.5rem;
 }
