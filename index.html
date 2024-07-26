@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="stars.css">
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js">
@@ -19,54 +20,57 @@
 <body>
 
     <div class="content-wrapper">
-        <div id="top">
+        <div id="top" class="top">
 
         </div>
         <div class="content">
 
             <div class="intro">
-                <div class="intro-2">
-                    <div class="intro-content">
-                        <div class="hello">
-                            <span class="html1" style="padding-right:5em">&lt;html&gt;</span><br>
-                            <span class="ell" style="padding-right:4em">...</span><br>
-                            <span class="html2" style="padding-right:1.5em">&lt;body&gt;</span><br>
-                            <span class="html3">&lt;h1&gt;</span><br>
-                            <h1>Hi, I'm <br><span class="name">Antonia!</span></h1>
-                        </div>
-                        <div class="intro-text">
-                            <p> I'm currently a professional freelance illustrator and designer transitioning to a career in web development. My extensive freelance background has led me to become a self-motivated, versatile problem-solver eager to learn new skills, software and techniques. I have over a decade of experience with HTML and CSS as both a hobby and for business purposes, content management systems like Shopify and WordPress, and light experience with PHP. </p>
-                            <p>I am currently advancing my skills in JavaScript and Ruby via <a href="https://theodinproject.com">The Odin Project</a>.</p>
-                        </div>
-                    </div>
 
-                    <div class="intro-links">
-                        <div class="contact">
-                            <a href="https://github.com/suncoyote">GitHub</a> • <a href="mailto:antonia.follano@gmail.com">Email</a>
-                        </div>
+                <div id='stars'></div>
+                <div id='stars2'></div>
+                <div id='stars3'></div>
 
-                        <a class="view-work" href="#portfolio">
-                            <div class="view-work-button">
-                                <div>
-                                    View my work
-                                </div>
-
-
-                                <div class="material-symbols-outlined" style="font-size: 50px;">
-                                    keyboard_double_arrow_down
-                                </div>
-
+                <div class="intro-3">
+                    <div class="intro-2">
+                        <div class="intro-content">
+                            <div class="hello">
+                                <span class="html1" style="padding-right:5em">&lt;html&gt;</span><br>
+                                <span class="ell" style="padding-right:4em">...</span><br>
+                                <span class="html2" style="padding-right:1.5em">&lt;body&gt;</span><br>
+                                <span class="html3">&lt;h1&gt;</span><br>
+                                <h1>Hi, I'm <br><span class="name">Antonia!</span></h1>
                             </div>
-                        </a>
-
+                            <div class="intro-text">
+                                <p> I'm currently a professional freelance illustrator and designer transitioning to a career in web development. My extensive freelance background has led me to become a self-motivated, versatile problem-solver eager to learn new skills, software and techniques. I have over a decade of experience with HTML and CSS as both a hobby and for business purposes, content management systems like Shopify and WordPress, and light experience with PHP. </p>
+                                <p>I am currently advancing my skills in JavaScript and Ruby via <a href="https://theodinproject.com">The Odin Project</a>.</p>
+                            </div>
+                        </div>
+                        <div class="intro-links">
+                            <div class="contact">
+                                <a href="https://github.com/suncoyote">GitHub</a> • <a href="mailto:antonia.follano@gmail.com">Email</a>
+                            </div>
+                        </div>
                     </div>
+                    <a class="view-work" href="#portfolio">
+                        <div class="view-work-button">
+                            <div>
+                                View my work
+                            </div>
+                            <div class="material-symbols-outlined" style="font-size: 50px;">
+                                keyboard_double_arrow_down
+                            </div>
+                        </div>
+                    </a>
                 </div>
+
             </div>
+
             <div class="portfolio" id="portfolio">
                 <h2>Portfolio</h2>
                 <div class="allcards">
                     <div class="card">
-                        <div class="preview"><img src="portfolio-images/aspeney.es.png"></div>
+                        <div class="preview"><a href="https://aspeney.es" target="_blank"><img src="portfolio-images/aspeney.es.png"></a></div>
                         <div class="description">
                             <h3>Artwork Portfolio</h3>
                             A clean, simple, mobile-responsive artwork portfolio for my freelance business. This uses a simple PHP script to automatically include files from a directory, allowing for ease of changes, and incorporates <a href="https://miromannino.github.io/Justified-Gallery/">JustifiedGallery</a> and <a href="https://www.lightgalleryjs.com/">LightGallery</a> JavaScript libraries to display images in an appealing and functional way.
@@ -74,7 +78,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="preview"><img src="portfolio-images/shop.aspeney.es.png"></div>
+                        <div class="preview"><a href="https://shop.aspeney.es" target="_blank"><img src="portfolio-images/shop.aspeney.es.png"></a></div>
                         <div class="description">
                             <h3>Online Storefront</h3>
                             Running on Shopify, this has been a cornerstone of my online business for over 5 years. Over time I have modified the theme with CSS, navigation, and categories to make things clearer for the customer.
