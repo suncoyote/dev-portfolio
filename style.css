@@ -340,9 +340,9 @@ a:not(.view-work):hover {
     flex-direction: column;
     align-items: center;
     flex-basis: 350px;
-    border-radius: 20px;
-    background: linear-gradient(342deg, rgba(41, 22, 107, 1) 0%, rgba(6, 4, 36, 1) 100%);
-    border: 1px solid rgba(41, 22, 107, 1);
+    border-radius: 10px;
+    background: linear-gradient(342deg, rgba(25, 13, 70, 1) 0%, rgba(6, 4, 36, 1) 100%);
+    border: 1px solid rgba(6, 4, 36, 1);
     overflow: hidden;
     flex-shrink: 1;
     min-height: 600px;
@@ -350,21 +350,23 @@ a:not(.view-work):hover {
 
 }
 
+.card h3 {
+    margin-top: 0px;
+}
+
 .card img {
     width: 100%;
     flex-shrink: 1;
     min-width: 0;
 
-}
+    .footer {
+        background-color: #0d093c;
 
-.footer {
-    background-color: #0d093c;
-
-    padding: 4rem;
-    width: 100vw;
-    scroll-snap-align: start;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-}
+        padding: 4rem;
+        width: 100vw;
+        scroll-snap-align: start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
